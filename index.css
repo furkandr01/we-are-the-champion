@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #9CA3AF;
+    user-select: none;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 11px;
+}
+
+#input-field {
+  width: 280px;
+  height: 118px;
+  background: #111827;
+  color: white;
+  padding: 20px;
+  border: 0;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+input{
+  width: 150px;
+  height: 40px;
+  border: 0;
+  border-radius: 8px;
+  background: #111827;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+button {
+    margin-top: 10px;
+    color: white;
+    background-color:#374151;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display:grid;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+.review-text {
+  color: #444059;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+.like-btn {
+  background: none;
+  padding: 0;
+  width: 30%;
+  text-align: right;
+  font-size: 20px;
+}
+
+.like-btn:hover {
+  background: none;
+  cursor:pointer;
+}
